@@ -24,3 +24,5 @@ jobs:
         run: |
           source venv/bin/activate
           pytest
+        env:
+            PYTHONPATH: .
